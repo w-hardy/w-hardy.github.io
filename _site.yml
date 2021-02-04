@@ -10,6 +10,9 @@ navbar:
     - text: "About"
       icon: fa-user
       href: about.html
+    - text: "Research"
+      icon: line-chart
+      href: research.html
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html

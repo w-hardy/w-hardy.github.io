@@ -1,0 +1,26 @@
+name: "Will Hardy"                                # CHANGE HERE
+output_dir: "."
+navbar:
+  title: "Will Hardy"                             # CHANGE HERE
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user
+      href: about.html
+    - text: "CV"
+      icon: fa-file-pdf-o
+      href: cv.html
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:will_hardy@hotmail.co.uk                    # CHANGE HERE
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/w-hardy       # CHANGE HERE
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate

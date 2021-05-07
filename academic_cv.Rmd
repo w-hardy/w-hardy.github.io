@@ -1,0 +1,72 @@
+---
+title: Will Hardy
+output: pdf_document
+---
+
+`r if(knitr::is_html_output()){"[Download CV as PDF](academic_cv.pdf#)"}`
+
+<div id="webaddress">
+<a href="will_hardy@icloud.com">will_hardy@icloud.com</a>
+| <a href="https://w-hardy.github.io/index.html">My webpage</a>
+</div>
+
+
+## Current projects
+
+* Identifying the scale and variation of the impact of COVID-19 on prescribing of medicines in primary care in Wales (School of Health Sciences, Bangor University).
+* Examining the relationships between narcissim and group functioning in team sports.
+
+### Specialise in
+
+Quantitative research methods
+
+
+### Research interests
+
+Methodology, psychology, mental health, pharmacoepidemiology
+
+## Education
+
+`2016-2020`
+__PhD in Sport and Exercise Psychology, Bangor University.__
+
+`2011-2014`
+__First Class with honours BSc in Geography, Bangor University__
+
+
+
+## Publications
+
+A list is also available [online](https://scholar.google.co.uk/citations?hl=en&user=itneHWkAAAAJ)
+
+
+### Journal articles
+
+
+### Dictionary entries
+
+
+### Reports
+
+
+## Teaching
+
+Informal
+
+BSEM
+
+PRA
+
+JXH4003
+
+
+## Conferences
+
+## Other work
+
+
+<!-- ### Footer
+
+Last updated: February 2020 -->
+
+

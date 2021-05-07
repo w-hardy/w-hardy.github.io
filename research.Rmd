@@ -1,8 +1,5 @@
 ---
 title: "Research"
-author: "Will A. S. Hardy"
-date: "04/02/2021"
-output: html_document
 ---
 
 I do some research things

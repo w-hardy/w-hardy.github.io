@@ -13,17 +13,23 @@ navbar:
     - text: "Research"
       icon: line-chart
       href: research.html
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
+    - text: "Rescue"
+      icon: fa-rope
+      href: rescue.html
+    - text: "Academic CV"
+      icon: fa-file-pdf
+      href: academic_cv.html
   right:
     - text: "Contact me"
-      icon: fa-envelope-o
-      href: mailto:will_hardy@hotmail.co.uk                    # CHANGE HERE
+      icon: fa-envelope
+      href: mailto:will_hardy@hotmail.co.uk  # CHANGE HERE
     - text: "GitHub"
-      icon: fa-github
+      icon: fa-github-square
       href: https://github.com/w-hardy       # CHANGE HERE
+    - text: "ResearchGate"
+      icon: fa-book
+      href: https://www.researchgate.net/profile/Will-Hardy
 output:
   html_document:
-    theme: cosmo
+    theme: readable
     highlight: textmate

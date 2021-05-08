@@ -1,6 +1,6 @@
 ---
 title: Will Hardy
-output: pdf_document
+output: html_document
 ---
 
 `r if(knitr::is_html_output()){"[Download CV as PDF](academic_cv.pdf#)"}`
@@ -11,28 +11,69 @@ output: pdf_document
 </div>
 
 
-## Current projects
+## Personal Profile
 
-* Identifying the scale and variation of the impact of COVID-19 on prescribing of medicines in primary care in Wales (School of Health Sciences, Bangor University).
-* Examining the relationships between narcissim and group functioning in team sports.
-
-### Specialise in
-
-Quantitative research methods
+Researcher in a variety of fields with expertise in quantitative analysis and communication to both technical and non-technical audiences. Experienced in applying existing skills to impactful research projects in a timely fashion and acquiring new relevant skills to overcome research challenges.
 
 
-### Research interests
+## Skills
 
-Methodology, psychology, mental health, pharmacoepidemiology
+**Applied statistics**: Bayesian and frequentist analysis, generalised linear models, pattern recognition/machine learning, structural equation modelling, multi-level/random-effects modelling, time-series analysis, survival analysis, Monte-Carlo simulation, cluster analysis.
+
+**Computing**: R/RStudio\*, Git, SQL, MPlus\*, Python†, MS Office\*, NVivo, latex, SPSS, JASP (*Highly skilled, †basic knowledge, other to a competent level of proficiency).
+
+
+## Academic and Professional Experience
+
+`May 2021-Present` __Research Officer in Health Technology Assessment__, Centre for Health Economics and Medicines Evaluation (CHEME), Bangor University
+
+
+`2018-Present` __Research Consultant__
+
+I have worked as a research consultant for several organisations, conducting both quantitative and qualitative research. Below are some examples of these projects.
+
+* Quantitative/Data Science
+  * Development of elite-performance in elite-sport and high-performance business (e.g., England and Wales Cricket Board, Watford FC, OSTC group)
+    * Responsible for data collation (including biometric, survey, performance, and trial data) and creating individual profiling reports (using RMarkdown). These reports are used by both technical (e.g., performance psychologists) and non-technical audiences (e.g., coaches).
+    * Worked a part of a group of performance psychologists working with performers and their coaches
+  * North Sea oil and gas COVID-19 repatriation (Outreach Medic Skills Ltd. and Bristow Helicopters)
+    * Designed and implemented a data collection and automated reporting system to provide insights into their COVID-19 medevac service
+  * An evaluation of the Adverse Childhood Experience Trauma Informed Multi-Agency Early Action Together (ACE TIME) training: national roll out to police and partners. (Public Health Wales).
+    * Responsible for quality assurance of the analyses and findings reported.
+* Qualitative
+  * Analysis of “Situational Analysis” and “Sporting and Organisational Health” documents (UK Sport)
+    * Responsible for the entire project, including analysis of documents submitted by Olympic and Paralympic sports (submissions from approximately 40 sports totalling ~1500 pages) and report writing.
+    * The timeline for this project was very short and was carried out in April 2020.
+  * Perceptions of health ageing (NRS Healthcare)
+    * Responsible for study design, analysing focus group data, report writing, and presenting findings.
+
+`2019-Present` __Specialist Rescue Operative and Instructor (part-time)__
+
+* Training emergency service personnel in rope and swift water rescue to national standards
+* Helicopter medic for the repatriation of North Sea oil and gas workers during the COVID-19 pandemic
+
+`Nov 2020-March 2021` __Research Officer in Pharmacoepidemiology__, Centre for Health Economics and Medicines Evaluation (CHEME), Bangor University
+
+* Project: The scale and variation of the impact of COVID-19 on prescribing of medicines in primary care in Wales
+  * Responsible for creating an analytical strategy for identifying changes to primary care prescribing in Wales during the COVID-19 pandemic and dissemination of the research results
+  * Project documented https://github.com/w-hardy/sercymru
+  * Package created for data analysis https://github.com/w-hardy/serCymruTools
+
 
 ## Education
 
 `2016-2020`
 __PhD in Sport and Exercise Psychology, Bangor University.__
 
+* Thesis: Developing excellence in outdoor provision: Enhancing training pathways for outdoor qualifications https://github.com/w-hardy/thesis
+* Supervised by Dr Ross Roberts and Prof Lew Hardy (no relation)
+* Academic fields of interest: quantitative methods, mental health, performance psychology, personality and individual differences
+
+
 `2011-2014`
 __First Class with honours BSc in Geography, Bangor University__
 
+* Research project: Individual decision making in Scottish avalanche terrain
 
 
 ## Publications
@@ -42,31 +83,62 @@ A list is also available [online](https://scholar.google.co.uk/citations?hl=en&u
 
 ### Journal articles
 
+1.	Frühauf, A., **Hardy, W. A. S.**, Roberts, R., Niedermeier, M., & Kopp, M. (2018). Structural validation of three German versions of behavioral and motivational scales in high-risk sports. German Journal of Exercise and Sport Research, 48(4), 467–477. https://doi.org/10.1007/s12662-018-0535-y
+2.	Frühauf, A., **Hardy, W. A. S.**, Pfoestl, D., Hoellen, F.-G. G., & Kopp, M. (2017). A Qualitative Approach on Motives and Aspects of Risks in Freeriding. Frontiers in Psychology, 8(November), 1–13. https://doi.org/10.3389/fpsyg.2017.01998
 
-### Dictionary entries
+
+### In Preparation
+
+1.	**Hardy, W. A. S.**, Hughes, D. A., Murphy, S., & Hill-McManus, D. (In preparation for submission to the British Journal of General Practice). The scale and variation of the impact of COVID-19 on prescribing of medicines in primary care in Wales.
+2.	**Hardy, W. A. S.**, Hardy, L., & Roberts, R. (In preparation for submission to the Journal of Expertise). Factors influencing completion of the Mountain Leader qualification: A machine learning approach.
+3.	**Hardy, W. A. S.**, Glendinning, F., & Woodman, T. Back to basics: Distinguishing anxiety and depression.
+
+
+### Dictionary contributions
+
+1.	**Hardy, W. A. S.**, & Woodman, T. (2019). Sensation Seeking. In D. Hackfort, R. J. Schinke, & B. Strauss (Eds.), Dictionary of Sport Psychology (p. 268). Elsevier. https://doi.org/10.1016/B978-0-12-813150-3.00019-X
+2.	**Hardy, W. A. S.**, & Woodman, T. (2019). Risk-taking. In D. Hackfort, R. J. Schinke, & B. Strauss (Eds.), Dictionary of Sport Psychology (pp. 251–252). Elsevier. https://doi.org/10.1016/B978-0-12-813150-3.00018-8
 
 
 ### Reports
 
+1.	**Hardy, W. A. S.** (2020). Analysis of “Situational Analysis” and “Sporting and Organisational Health” submissions to UK Sport. Submitted to UK Sport.
+2.	**Hardy, W. A. S.** (2020). Factors Influencing the Mountain Leader Completion Rates: Mountain Training Scotland. Submitted to Mountain Training Scotland.
+3.	**Hardy, W. A. S.** (2019). Mountain Training Scotland Mountain Leader and Winter Mountain Leader Completion Statistics. Submitted to Mountain Training Scotland.
+4.	**Hardy, W. A. S.**, Turner, A., & Macdonald, J. H. (2019). Perceptions of Healthy Ageing. Submitted to NRS Healthcare.
+5.	**Hardy, W. A. S.**, Roberts, R., & Hardy, L. (2019). Developing excellence in outdoor provision: Enhancing training pathways for outdoor qualifications. Submitted to Mountain Training United Kingdom and Ireland. https://www.mountain-training.org/about/research
+6.	Hardy, L., **Hardy, W. A. S.**, & du Preez, T. L. (2018). Athlete’s Perceptions of Culture and Success. Submitted to UK Sport.
+7.	**Hardy, W. A. S.**, Peter, L., & Jasieniecka, N. (2018). Mountaineering Instructor Award Assessment Preparation Survey 2017. Submitted to Mountain Training United Kingdom and Ireland. https://www.mountain-training.org/about/research 
+
+
 
 ## Teaching
 
-Informal
-
-BSEM
-
-PRA
-
-JXH4003
+* Introduction to Pattern Recognition Analysis. Private 10-hours course and follow-up consultation with PhD Student at Bangor University. November 2020.
+* Introduction to Bayesian Structural Equation Modelling. Private 10-hour course for a Principal Lecturer at Worcester University. June 2020.
+* Advanced Research Skills: Computational Statistics, Bangor University (Module JXH-4003-0) 2020.
+* Basic Bayes: A conceptual primer. Presentation to the School of Sports, Health, and Exercise Science, Bangor University. 2018.
 
 
 ## Conferences
 
-## Other work
+1.	**Hardy, W. A. S.**, Hughes, D. A., Murphy, S., & Hill-McManus, D. (Accepted 2021). The Scale and Variation of The Impact Of COVID-19 On Prescribing of Medicines in Primary Care in Wales [Oral presentation]. Health Technology Assessment International.
+2.	**Hardy, W. A. S.**, Glendinning, F., Barwood, C., & Boulter, M. (2019). The Robustness and Resilience Questionnaire: Initial validation [Poster presentation]. Society of Personality and Social Psychology Conference. Portland, OR, USA. https://doi.org/10.17605/OSF.IO/Q4Z3W
+3.	**Hardy, W. A. S.**, Roberts, R., Hardy, L., & Cousins, J. (2019). Understanding the Completion Rate of the Mountain Leader Qualification [Oral presentation]. Pan Wales Sport Science Conference. Cardiff, Wales.
+4.	**Hardy, W. A. S.**, Roberts, R., Hardy, L., & Cousins, J. (2018). Understanding the Completion Rate of the Mountain Leader Qualification [Oral presentation]. Adventure Sports Conference. Capel Curig, Wales.
+5.	**Hardy, W. A. S.**, Roberts, R., Barlow, M., & Hardy, L. (2017). Individual Travel Decision Making in Avalanche Terrain [Oral presentation]. International Society for Skiing Safety. Innsbruck, Austria.
+6.	**Hardy, W. A. S.**, Roberts, R., Hardy, L., & Cousins, J. (2017). Developing excellence in outdoor provision: Enhancing training pathways for outdoor qualifications [Poster presentation]. Getting North Wales Moving Conference. Bangor, Wales.
+
+
+## Acknowledgements for Statistical Support
+
+1.	Glendinning, F., Barton, E. R., Newbury, A., McManus, M. A., Janssen, H., Johnson, G., Ramos Rodriguez, G., Harker, S., & Bellis, M. A. (2020). An evaluation of the Adverse Childhood Experience Trauma Informed Multi-Agency Early Action Together (ACE TIME) training: national roll out to police and partners. https://www.rsph.org.uk/our-work/resources/early-action-together-learning-network/resources/research/eat-research.html
+2.	Muskett, C. (2020). Impact of COVID-19 on the Professional Mountaineering Community. Submitted to Mountain Training United Kingdom and Ireland. https://www.mountain-training.org/about/research 
+
 
 
 <!-- ### Footer
 
-Last updated: February 2020 -->
+Last updated: May 2020 -->
 
 

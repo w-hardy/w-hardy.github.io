@@ -1,8 +1,8 @@
-name: "Will Hardy"                                # CHANGE HERE
+name: "Will Hardy"
 output_dir: "."
 navbar:
-  title: "Will Hardy"                             # CHANGE HERE
-  type: inverse
+  title: "Will Hardy"
+  # type: inverse
   left:
     - text: "Home"
       icon: fa-home
@@ -21,15 +21,15 @@ navbar:
       href: academic_cv.html
   right:
     - text: "Contact me"
-      icon: fa-envelope
+      icon: fa-envelope-o
       href: mailto:will_hardy@hotmail.co.uk  # CHANGE HERE
     - text: "GitHub"
-      icon: fa-github-square
+      icon: fa-github
       href: https://github.com/w-hardy       # CHANGE HERE
     - text: "ResearchGate"
       icon: fa-book
       href: https://www.researchgate.net/profile/Will-Hardy
 output:
   html_document:
-    theme: readable
+    theme: cosmo
     highlight: textmate

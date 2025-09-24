@@ -6,7 +6,7 @@ output: html_document
 `r if(knitr::is_html_output()){"[Download CV as PDF](academic_cv.pdf#)"}`
 
 <div id="webaddress">
-<a href="will_hardy@icloud.com">will_hardy@icloud.com</a>
+<a href="57.palms-waking@icloud.com">57.palms-waking@icloud.com</a>
 | <a href="https://w-hardy.github.io/index.html">My webpage</a>
 </div>
 

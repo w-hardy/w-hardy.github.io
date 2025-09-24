@@ -22,7 +22,7 @@ navbar:
   right:
     - text: "Contact me"
       icon: fa-envelope-o
-      href: mailto:will_hardy@hotmail.co.uk  # CHANGE HERE
+      href: mailto:57.palms-walking@icloud.com  # CHANGE HERE
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/w-hardy       # CHANGE HERE

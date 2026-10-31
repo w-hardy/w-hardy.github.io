@@ -1,0 +1,122 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif !default;
+$font-size-root: 17px !default;
+$line-height-base: 1.65 !default;
+
+$body-color: #2b3744 !default;
+$link-color: #2b6cb0 !default;
+$primary: #2b6cb0 !default;
+
+$headings-font-weight: 600 !default;
+$headings-color: #1b2733 !default;
+
+/*-- scss:rules --*/
+
+h1.title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #e7ecf1;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: #3c4a59;
+  margin: 0.2rem 0 1.4rem;
+}
+
+// Navbar: slate
+.navbar {
+  background-color: #1f2933 !important;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  color: #ffffff;
+}
+.navbar .nav-link {
+  color: #c7d0d9 !important;
+  font-weight: 500;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: #ffffff !important;
+}
+
+// Home page tiles (not Bootstrap's .card)
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin: 1.4rem 0;
+}
+.card-tile {
+  flex: 1 1 220px;
+  border: 1px solid #e3e8ee;
+  border-radius: 10px;
+  padding: 20px 22px;
+  background: #fbfcfd;
+  transition: box-shadow 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+}
+.card-tile:hover {
+  box-shadow: 0 6px 18px rgba(27, 39, 51, 0.08);
+  transform: translateY(-2px);
+  border-color: #cfd9e3;
+}
+.card-title {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1b2733;
+  margin-bottom: 0.4rem;
+}
+
+// Research page project headings
+.project-title {
+  display: block;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #1b2733;
+  margin: 1.5rem 0 0.3rem;
+}
+
+// CV
+.cv-date {
+  display: inline-block;
+  min-width: 11rem;
+  color: #6b7785;
+  font-variant-numeric: tabular-nums;
+}
+.cv-download {
+  display: inline-block;
+  background: #2b6cb0;
+  color: #ffffff !important;
+  padding: 8px 18px;
+  border-radius: 24px;
+  font-weight: 600;
+  text-decoration: none !important;
+  margin-bottom: 1rem;
+}
+.cv-download:hover {
+  background: #1d4e80;
+}
+.publist .csl-entry {
+  margin-bottom: 0.7rem;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+  .cv-date {
+    display: block;
+  }
+}

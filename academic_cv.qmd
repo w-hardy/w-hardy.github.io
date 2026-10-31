@@ -1,0 +1,179 @@
+---
+title: "Dr Will Hardy"
+subtitle: "Curriculum vitae"
+publications: publications.bib
+publist-csl: apa.csl
+filters:
+  - filters/publist.lua
+  - filters/cv-date.lua
+format-links: false
+format:
+  html:
+    toc: true
+    toc-location: right
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    fontsize: 10pt
+    toc: false
+---
+
+::: {.content-visible when-format="html"}
+[Download CV (PDF)](academic_cv.pdf){.cv-download}
+:::
+
+[57.palms-waking@icloud.com](mailto:57.palms-waking@icloud.com) ·
+[w-hardy.github.io](https://w-hardy.github.io) ·
+ORCID [0000-0001-5227-567X](https://orcid.org/0000-0001-5227-567X)
+
+## Profile
+
+Health economist specialising in the economic evaluation of health technologies
+alongside clinical trials and in methods for health technology assessment, with
+a background in applied statistics and psychology. Experienced in communicating
+analyses to both technical and non-technical audiences.
+
+## Experience
+
+[Jan 2023–present]{.cv-date} **Research Fellow in Pharmacoeconomics**, Centre
+for Health Economics and Medicines Evaluation (CHEME), Bangor University
+
+[May 2021–Dec 2022]{.cv-date} **Research Officer in Health Technology
+Assessment**, CHEME, Bangor University
+
+[Nov 2020–Mar 2021]{.cv-date} **Research Officer in Pharmacoepidemiology**,
+CHEME, Bangor University
+
+- Project: the scale and variation of the impact of COVID-19 on prescribing of
+  medicines in primary care in Wales
+  - Responsible for creating an analytical strategy for identifying changes to
+    primary-care prescribing in Wales during the COVID-19 pandemic and for
+    disseminating the results
+  - Project documented at <https://github.com/w-hardy/sercymru>
+  - Package created for the analysis: <https://github.com/w-hardy/serCymruTools>
+
+[2018–present]{.cv-date} **Research Consultant**
+
+I have worked as a research consultant for several organisations, conducting
+both quantitative and qualitative research. Examples include:
+
+- Quantitative / data science
+  - Development of elite performance in elite sport and high-performance
+    business (e.g., England and Wales Cricket Board, Watford FC, OSTC group)
+    - Responsible for data collation (including biometric, survey, performance
+      and trial data) and creating individual profiling reports (using R
+      Markdown), used by both technical (e.g., performance psychologists) and
+      non-technical audiences (e.g., coaches)
+    - Worked as part of a group of performance psychologists working with
+      performers and their coaches
+  - North Sea oil and gas COVID-19 repatriation (Outreach Medic Skills Ltd. and
+    Bristow Helicopters)
+    - Designed and implemented a data collection and automated reporting system
+      to provide insights into their COVID-19 medevac service
+  - An evaluation of the Adverse Childhood Experience Trauma Informed
+    Multi-Agency Early Action Together (ACE TIME) training: national roll-out
+    to police and partners (Public Health Wales)
+    - Responsible for quality assurance of the analyses and findings reported
+- Qualitative
+  - Analysis of "Situational Analysis" and "Sporting and Organisational Health"
+    documents (UK Sport)
+    - Responsible for the entire project, including analysis of documents
+      submitted by Olympic and Paralympic sports (approximately 40 sports,
+      ~1,500 pages) and report writing, on a very short timeline in April 2020
+  - Perceptions of healthy ageing (NRS Healthcare)
+    - Responsible for study design, analysing focus-group data, report writing
+      and presenting findings
+
+## Grants and awards
+
+### Grants
+
+[2026–2032]{.cv-date} **VALTIVE-C**, Cancer Research UK. Co-investigator.
+
+[2026]{.cv-date} **EXPO modelling extension**, King's College London. Principal
+investigator.
+
+### Awards
+
+[Oct 2026]{.cv-date} **Travel bursary**, Cancer Research UK Postdoc Futures
+event.
+
+## Education
+
+[2016–2020]{.cv-date} **PhD in Sport and Exercise Psychology**, Bangor
+University
+
+- Thesis: *Developing excellence in outdoor provision: Enhancing training
+  pathways for outdoor qualifications* (<https://github.com/w-hardy/thesis>)
+- Supervised by Dr Ross Roberts and Prof Lew Hardy (no relation)
+
+[2011–2014]{.cv-date} **BSc Geography, First Class with Honours**, Bangor
+University
+
+- Research project: individual decision-making in Scottish avalanche terrain
+
+## Skills
+
+**Health economics**: trial-based cost-effectiveness analysis, decision
+modelling, probabilistic sensitivity analysis, survival extrapolation (including
+cure and spline models), value of information.
+
+**Applied statistics**: Bayesian and frequentist analysis, generalised linear
+models, pattern recognition / machine learning, structural equation modelling,
+multilevel / random-effects modelling, time-series analysis, survival analysis,
+Monte Carlo simulation, cluster analysis.
+
+**Computing**: R/RStudio\*, Git, SQL, Mplus\*, Python†, MS Office\*, NVivo,
+LaTeX, SPSS, JASP (\*highly skilled, †basic knowledge, others to a competent
+level).
+
+## Publications
+
+### Journal articles
+
+::: {.publist types="article-journal"}
+:::
+
+### Book chapters
+
+::: {.publist types="chapter"}
+:::
+
+### Reports
+
+::: {.publist types="report"}
+:::
+
+A current list is also available on
+[Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=itneHWkAAAAJ).
+
+## Conference presentations
+
+::: {.publist types="speech"}
+:::
+
+## Teaching
+
+- Introduction to Pattern Recognition Analysis. Private 10-hour course and
+  follow-up consultation for a PhD student at Bangor University. November 2020.
+- Introduction to Bayesian Structural Equation Modelling. Private 10-hour course
+  for a Principal Lecturer at Worcester University. June 2020.
+- Advanced Research Skills: Computational Statistics (JXH-4003), MSc module,
+  School of Psychology, Bangor University. 2020.
+- Basic Bayes: A conceptual primer. Presentation to the School of Sports, Health,
+  and Exercise Science, Bangor University. 2018.
+
+## Rescue and emergency response
+
+[2014–present]{.cv-date} **Llanberis Mountain Rescue Team**: team member,
+welfare officer, committee member and vice chair
+
+[2019–2022]{.cv-date} **Specialist Rescue Operative and Instructor
+(part-time)**, Outreach Rescue
+
+- Training emergency-service personnel in rope and swift-water rescue to
+  national standards
+- Helicopter medic for the repatriation of North Sea oil and gas workers during
+  the COVID-19 pandemic

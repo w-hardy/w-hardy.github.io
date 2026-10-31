@@ -1,56 +1,40 @@
-# Make your website with R Markdown in minutes
+# w-hardy.github.io
 
-This is a template (and tutorial) for creating your website with R Markdown in minutes.
+Source for my academic website and CV, <https://w-hardy.github.io>, built with
+[Quarto](https://quarto.org).
 
-The official document from RStudio can be found [here](http://rmarkdown.rstudio.com/rmarkdown_websites.html).
+## Layout
 
-## Procedure
+| Path | Purpose |
+|------|---------|
+| `index.qmd`, `about.qmd`, `research.qmd` | Site pages |
+| `academic_cv.qmd` | CV, rendered to HTML and to PDF (via Typst) |
+| `publications.bib` | Every publication and presentation; the one source for the CV and Research page |
+| `filters/publist.lua` | Renders publication lists from `publications.bib` (APA, newest first, my name in bold) |
+| `filters/cv-date.lua` | Spaces CV dates in the PDF |
+| `apa.csl` | APA 7th edition citation style |
+| `_quarto.yml`, `theme.scss` | Site configuration and styling |
+| `GLOSSARY.md`, `docs/adr/`, `CLAUDE.md` | Terms, design decisions and editing rules |
 
-### Prerequisites
+## Adding a publication
 
-- Make sure that you have the latest versions of R, RStudio and package rmarkdown. I had problems of encoding because of that. 
+Add an entry to `publications.bib`; it appears on the CV (and on the Research
+page if its key is listed there) at the next render. Use `@article`,
+`@incollection`, `@report`, or `@unpublished` with `eventtitle` and `venue` for
+presentations. Wrap proper nouns in `{braces}`, because titles are converted to
+sentence case.
 
-- Make sure that you have enabled Git in RStudio. More information can be found [there](https://privefl.github.io/advr38book/good-practices.html#git).
+## Building locally
 
-- You need a GitHub account.
+```bash
+quarto preview   # live preview while editing
+quarto render    # build the site and PDF CV into _site/
+```
 
-### Make the first version of your website
+`_site/` is git-ignored.
 
-- Fork this repo (top-right) and rename it to be 'YOURGITHUB.github.io' (in Settings of your brand new repo).
+## Publishing
 
-- Get the link from cloning the repo. Use the green button "Clone" and make sure you use SSH, not HTTPS. Then, go to RStudio, create a New Project > Version Control > Git and copy this link. You have cloned your new repo as an R project.
-
-- Build the website by running `rmarkdown::render_site(encoding = "UTF-8")` or just `Ctrl/Cmd + Shift + B`.
-
-- Commit and push everything from RStudio.
-
-- Go see your new website at https://YOURGITHUB.github.io/index.html.
-
-### Change the content of your website
-
-- Modify `_site.yml`, `index.Rmd`, `about.Rmd`, `cv.Rmd` and `CV.pdf` with your own content. 
-- Build your website again. At any moment, you can preview your website locally, by rendering your site and viewing any of your local html file in your Web Browser. 
-
-- Commit and push everything from RStudio.
-
-- Go see your new website with your own content at https://YOURGITHUB.github.io/.
-
-### The blog part
-
-For now, the 'Blog' link is giving a 404 page. 
-
-If you want to add a static blog to your webpage, go [there](https://github.com/privefl/jekyll-now-r-template).
-
-## Two examples
-
-You can see for example 
-- [my own website](https://privefl.github.io/),
-
-- [the website of the R user group in Grenoble](https://r-in-grenoble.github.io/).
-
-## Conclusion
-
-As a reminder, all credit goes to the geniuses at RStudio (thanks also to [GitHub pages](https://pages.github.com/)). I just made some minor modifications and made a tuto about how to use all this together.
-
-If anything is false or not clear enough, feel free to contact me or open an issue.
-If it is an issue only related with R Markdown, you'll find a better answer posting [there](https://github.com/rstudio/rmarkdown).
+`.github/workflows/publish.yml` renders the site and deploys it to GitHub Pages
+on every push to `main`. The repository's Pages source must be set to
+**GitHub Actions** (Settings → Pages → Build and deployment → Source).

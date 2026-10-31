@@ -1,0 +1,43 @@
+---
+title: "Will Hardy"
+toc: false
+---
+
+::: {.lead}
+I'm Dr Will Hardy, a Research Fellow in Pharmacoeconomics at the Centre for
+Health Economics and Medicines Evaluation (CHEME), Bangor University. I work on
+the economic evaluation of health technologies, mostly alongside clinical
+trials, and on the methods that health technology assessment relies on.
+:::
+
+## Explore
+
+::::: {.cards}
+
+::: {.card-tile}
+[About]{.card-title}
+
+My background and the path from psychology and applied statistics into health
+economics.
+
+[Read more &rarr;](about.qmd)
+:::
+
+::: {.card-tile}
+[Research]{.card-title}
+
+Trial-based economic evaluation, survival extrapolation, and the projects I work
+on.
+
+[Read more &rarr;](research.qmd)
+:::
+
+::: {.card-tile}
+[CV]{.card-title}
+
+Experience, grants, publications, presentations and teaching.
+
+[View CV &rarr;](academic_cv.qmd) &nbsp;·&nbsp; [PDF](academic_cv.pdf)
+:::
+
+:::::

@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+  # Explicit list: the repo also holds Markdown docs (README, GLOSSARY, ADRs)
+  # that must not become pages.
+  render:
+    - index.qmd
+    - about.qmd
+    - research.qmd
+    - academic_cv.qmd
+
+website:
+  title: "Will Hardy"
+  description: "Health economist at the Centre for Health Economics and Medicines Evaluation (CHEME), Bangor University."
+  site-url: "https://w-hardy.github.io"
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "CV"
+        href: academic_cv.qmd
+    right:
+      - icon: envelope
+        href: "mailto:57.palms-waking@icloud.com"
+        aria-label: "Email"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0001-5227-567X"
+      - icon: mortarboard-fill
+        href: "https://scholar.google.co.uk/citations?hl=en&user=itneHWkAAAAJ"
+        aria-label: "Google Scholar"
+      - icon: github
+        href: "https://github.com/w-hardy"
+        aria-label: "GitHub"
+      - text: "ResearchGate"
+        href: "https://www.researchgate.net/profile/Will-Hardy"
+  page-footer:
+    border: true
+    left: "&copy; Will Hardy"
+    right:
+      - icon: envelope
+        href: "mailto:57.palms-waking@icloud.com"
+        aria-label: "Email"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0001-5227-567X"
+      - text: "Google Scholar"
+        href: "https://scholar.google.co.uk/citations?hl=en&user=itneHWkAAAAJ"
+      - icon: github
+        href: "https://github.com/w-hardy"
+        aria-label: "GitHub"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    toc: true
+    toc-location: right
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 860px

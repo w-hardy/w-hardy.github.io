@@ -29,6 +29,21 @@ _Avoid_: Working paper, draft
 **In preparation** is not a status this site uses: work that has not been
 submitted or posted is not listed.
 
+## Projects
+
+**CASTLE**:
+The NIHR programme (Changing Agendas on Sleep, Treatment and Learning in
+Epilepsy) whose Sleep-E trial evaluated an online behavioural sleep intervention
+for children with epilepsy.
+_Source_: Pal et al., Programme Grants Appl Res 2026;14(16), doi:10.3310/GJDP1929 (checked 2026-10-31)
+_Avoid_: CASTLE Sleep-E (when the whole programme is meant)
+
+**EXPO**:
+The pragmatic phase 3 trial of monthly extended-release buprenorphine (BUP-XR)
+versus daily standard-of-care medication for opioid use disorder.
+_Source_: Marsden et al., eClinicalMedicine 2023;66:102311 (NCT05164549); HESG Winter 2024 abstract booklet (checked 2026-10-31)
+_Avoid_: BUP-XR trial
+
 ## Roles
 
 **Research consulting**:

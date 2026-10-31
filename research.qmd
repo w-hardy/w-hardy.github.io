@@ -1,0 +1,69 @@
+---
+title: "Research"
+publications: publications.bib
+publist-csl: apa.csl
+filters:
+  - filters/publist.lua
+---
+
+I work on the economic evaluation of health technologies, mostly alongside
+clinical trials, and on the methods that health technology assessment depends
+on. I'm particularly interested in how analytical choices, such as the costing
+perspective or the way survival is extrapolated, change the decision a model
+supports.
+
+## Areas of interest
+
+- **Trial-based economic evaluation**: cost-utility analysis alongside
+  randomised trials, including costing perspective, missing data, and joint
+  uncertainty in costs and outcomes.
+- **Methods for health technology assessment**: survival extrapolation,
+  including cure and spline models, and value of information.
+- **Pharmacoepidemiology**: how medicines are used in practice and how external
+  shocks change prescribing.
+
+## Selected projects
+
+[CASTLE: sleep in childhood epilepsy]{.project-title}
+
+The NIHR-funded CASTLE programme evaluated an online behavioural sleep
+intervention for children with epilepsy in the CASTLE Sleep-E randomised trial.
+I contributed to the trial's economic evaluation; the programme's final report
+was published in *Programme Grants for Applied Research* in 2026.
+
+[EXPO: extended-release buprenorphine for opioid use disorder]{.project-title}
+
+EXPO was a pragmatic phase 3 trial comparing monthly extended-release
+buprenorphine with daily standard-of-care medication. I worked on its
+cost-utility analysis, which took a societal perspective, including criminal
+justice costs. I now lead an extension of the EXPO economic modelling.
+
+[Survival extrapolation for advanced therapies]{.project-title}
+
+With Dyfrig Hughes I reviewed methods for extrapolating survival in economic
+evaluations of advanced therapy medicinal products, where trial follow-up is
+short and hazards are complex.
+
+[COVID-19 and primary-care prescribing in Wales]{.project-title}
+
+I developed the analytical strategy for identifying changes in primary-care
+prescribing across Wales during the pandemic. The analysis is documented at
+[github.com/w-hardy/sercymru](https://github.com/w-hardy/sercymru), with a
+companion package,
+[serCymruTools](https://github.com/w-hardy/serCymruTools).
+
+## Earlier research
+
+My PhD in sport and exercise psychology used quantitative and machine-learning
+methods to study completion of outdoor leadership qualifications
+([thesis](https://github.com/w-hardy/thesis)). I have also published on risk
+and motivation in high-risk sports.
+
+## Selected publications
+
+::: {.publist keys="pal2026castle,gringras2026cosi,marsden2023expo,hardy2022extrapolating"}
+:::
+
+The full list is on my [CV](academic_cv.qmd), and on
+[Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=itneHWkAAAAJ)
+and [ORCID](https://orcid.org/0000-0001-5227-567X).

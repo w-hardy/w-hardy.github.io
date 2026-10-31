@@ -1,0 +1,41 @@
+---
+title: "About me"
+---
+
+I'm a health economist at the Centre for Health Economics and Medicines
+Evaluation (CHEME), Bangor University, where I have been a **Research Fellow in
+Pharmacoeconomics** since 2023. Before that I was a Research Officer at CHEME,
+first in Pharmacoepidemiology and then in Health Technology Assessment.
+
+Most of my work is economic evaluation run alongside clinical trials, such as
+the CASTLE and EXPO trials, together with methods work on problems that
+health technology assessment keeps running into, such as extrapolating survival
+beyond the end of a trial.
+
+## Background
+
+I came to health economics through psychology and applied statistics. I hold a
+**PhD in Sport and Exercise Psychology** from Bangor University, where I used
+quantitative and machine-learning methods to study the training pathways for
+outdoor leadership qualifications. Before that I read **Geography** (BSc, First
+Class) at Bangor, with a final-year project on individual decision-making in
+Scottish avalanche terrain.
+
+That route left me with a broad statistical toolkit, including Bayesian and
+frequentist modelling, structural equation and multilevel models, and machine
+learning, and with a habit of explaining results to people who are not
+statisticians.
+
+Alongside my university post I have also carried out independent research
+consulting; it is listed on my [CV](academic_cv.qmd).
+
+## Beyond research
+
+Since 2014 I have been a member of **Llanberis Mountain Rescue Team**, serving
+as a team member, welfare officer, committee member and vice chair.
+
+From 2019 to 2022 I also worked part-time for **Outreach Rescue** as a
+specialist rescue operative and instructor, training emergency-service
+personnel in rope and swift-water rescue to national standards. During the
+COVID-19 pandemic this included working as a helicopter medic, repatriating
+North Sea oil and gas workers.

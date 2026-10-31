@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Rendered site: built by Quarto in CI (docs/adr/0002), not committed
+/_site/
+
+# macOS
+.DS_Store

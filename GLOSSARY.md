@@ -33,6 +33,6 @@ submitted or posted is not listed.
 
 **Research consulting**:
 Independent research Will carries out for external organisations, outside his
-university post. Presented with a deliberately low profile.
+university post.
 _Source_: project definition
 _Avoid_: Freelance work, contract research (when it means university-funded projects)
